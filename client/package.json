@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "preact": "^8.2.6",
-    "preact-compat": "^3.17.0",
+    "preact-compat": "^3.18.0",
     "preact-jsx-chai": "^2.2.1",
     "preact-render-to-string": "^3.7.0",
     "preact-router": "^2.5.7"

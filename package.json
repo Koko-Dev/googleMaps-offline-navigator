@@ -23,7 +23,8 @@
     "Raegan Millhollin (https://github.com/desdemonhu)",
     "Peter Matthews (https://github.com/pjdmatts)",
     "John Kwening (https://github.com/jkwening)",
-    "Vasanth (https://github.com/Vasanthkesavan)"
+    "Vasanth (https://github.com/Vasanthkesavan)",
+    "Koko-Dev (https://github.com/Koko-Dev)"
   ],
   "license": "MIT",
   "bugs": {
@@ -43,6 +44,7 @@
     "express": "^4.16.2",
     "helmet": "^3.9.0",
     "mongoose": "^5.0.1",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "preact": "^8.2.7"
   }
 }

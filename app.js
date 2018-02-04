@@ -15,6 +15,7 @@ const app = express();
  * MONGODB CONNECTION
  */
 
+
 // Setup MongoDB connection using the global promise library and then get connection
 mongoose.connect(DB_URL, { promiseLibrary: global.Promise }, error => {
   if (error) {
@@ -66,6 +67,7 @@ app.use(morgan('dev'));
 app.use('/api', require('./routes/api'));
 
 // TODO: Create additional routes as necessary
+
 
 // Serve static assets and index.html in production
 if (ENV === 'production') {
